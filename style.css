@@ -606,7 +606,7 @@ body.page #main-content { padding-top: 0; padding-bottom: 0; }
 .header-style-3 #site-header #main-nav > ul > li:hover > a { color: #87ceeb; }
 .header-style-3 #site-header .header-search-icon,
 .header-style-3 #main-nav > ul > li > a { line-height: 99px; }
-.header-style-3 #site-header .wrap-inner { padding: 30px 0px; }
+.header-style-3 #site-header .wrap-inner { padding: 30px 0px 20px 0px; }
 
 .header-style-3 #site-header.is-fixed.is-small { background-color: #3e3e3e; }
 
