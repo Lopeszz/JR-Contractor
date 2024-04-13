@@ -25,11 +25,43 @@
     <!-- Favicon and Touch Icons  -->
     <link rel="shortcut icon" href="assets/icon/favicon.png">
     <link rel="apple-touch-icon-precomposed" href="assets/icon/apple-touch-icon-158-precomposed.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!--[if lt IE 9]>
         <script src="javascript/html5shiv.js"></script>
         <script src="javascript/respond.min.js"></script>
     <![endif]-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <style>
+        /* Estilo para as imagens no carousel */
+
+        .carousel-inner {
+            width: 125%;
+        }
+
+        #carouselExampleControls .carousel-inner .carousel-item img {
+            width: 80% !important;
+            /* Definindo largura de 100% */
+            height: auto;
+            /* Altura automática para manter a proporção */
+            object-fit: cover;
+            /* Garante que a imagem cubra completamente o contêiner */
+            display: block !important;
+            /* Força a exibição da imagem como bloco */
+        }
+    </style>
+
+
 
 </head>
 
@@ -732,7 +764,7 @@
                                                     data-mobilemargin="0 0 0 0">
                                                     <p class="font-size-16 no-margin">Choose JR Contractor & Home
                                                         improvement for your next construction or remodeling project,
-                                                        and experience the difference of working with a company that
+                                                        and experience the difference f working with a company that
                                                         truly cares about bringing your vision to life. Let us help you
                                                         create a space that you’ll love for years to come.
                                                     </p>
@@ -783,39 +815,93 @@
                                                     <div
                                                         class="themesflat-accordions style-2 has-icon icon-left iconstyle-2 clearfix">
                                                         <div class="accordion-item active">
-                                                            <h3 class="accordion-heading"><span class="inner">Why Choose
-                                                                    Our Carpentry Renovation Services?</span></h3>
+                                                            <h3 class="accordion-heading"><span class="inner">Is your
+                                                                    company licensed and/or insured?</span></h3>
                                                             <div class="accordion-content">
-                                                                <div>We leverage our expertise in carpentry renovation
-                                                                    to transform spaces with precision and attention to
-                                                                    detail. Our commitment to quality craftsmanship
-                                                                    ensures exceptional results that exceed
-                                                                    expectations.</div>
+                                                                <div>We are licensed and insured.</div>
                                                             </div>
                                                         </div><!-- /.accordion-item -->
+
                                                         <div class="accordion-item">
-                                                            <h3 class="accordion-heading"><span class="inner">How Our
-                                                                    Kitchen Remodeling Enhances Your Home?
-                                                                </span></h3>
+                                                            <h3 class="accordion-heading"><span class="inner">What kind
+                                                                    of construction do you specialize in?</span></h3>
                                                             <div class="accordion-content">
-                                                                <div>Discover how our innovative kitchen remodeling
-                                                                    solutions can elevate the heart of your home. From
-                                                                    functional layouts to stylish designs, we bring your
-                                                                    vision to life with efficiency and expertise.
+                                                                <div>We specialize in interior and exterior renovation.
                                                                 </div>
                                                             </div>
                                                         </div><!-- /.accordion-item -->
-                                                        <div class="accordion-item ">
-                                                            <h3 class="accordion-heading"><span class="inner">The
-                                                                    Advantages of Our Flooring Solutions?</span></h3>
+
+                                                        <div class="accordion-item">
+                                                            <h3 class="accordion-heading"><span class="inner">How long
+                                                                    does a typical construction project take?</span>
+                                                            </h3>
                                                             <div class="accordion-content">
-                                                                <div>Explore the benefits of our flooring solutions,
-                                                                    which blend warmth, style, and durability
-                                                                    seamlessly. We offer a range of options to suit
-                                                                    every taste and requirement, ensuring a stunning
-                                                                    finish for your space.</div>
+                                                                <div>The length of time to complete your construction
+                                                                    project will depend on the scope of the project.
+                                                                </div>
                                                             </div>
                                                         </div><!-- /.accordion-item -->
+
+                                                        <div class="accordion-item">
+                                                            <h3 class="accordion-heading"><span class="inner">How do you
+                                                                    charge for projects? By the hour, job, etc.?</span>
+                                                            </h3>
+                                                            <div class="accordion-content">
+                                                                <div>The construction cost will depend on many factors
+                                                                    such as geography, square footage, type of building,
+                                                                    and building and finishing materials.</div>
+                                                            </div>
+                                                        </div><!-- /.accordion-item -->
+
+                                                        <div class="accordion-item">
+                                                            <h3 class="accordion-heading"><span class="inner">Do you
+                                                                    offer free in-person estimates?</span></h3>
+                                                            <div class="accordion-content">
+                                                                <div>Yes, all estimates are free.</div>
+                                                            </div>
+                                                        </div><!-- /.accordion-item -->
+
+                                                        <div class="accordion-item">
+                                                            <h3 class="accordion-heading"><span class="inner">Will I
+                                                                    need a building permit?</span></h3>
+                                                            <div class="accordion-content">
+                                                                <div>Most jurisdictions will require a building permit
+                                                                    for construction and renovations.</div>
+                                                            </div>
+                                                        </div><!-- /.accordion-item -->
+
+                                                        <div class="accordion-item">
+                                                            <h3 class="accordion-heading"><span class="inner">Do we need
+                                                                    to close during the renovation?</span></h3>
+                                                            <div class="accordion-content">
+                                                                <div>Renovating a retail store, office building, or
+                                                                    other commercial establishment can often be done in
+                                                                    stages allowing your business to remain open during
+                                                                    the construction process. There may be some minor
+                                                                    inconveniences to customers.</div>
+                                                            </div>
+                                                        </div><!-- /.accordion-item -->
+
+                                                        <div class="accordion-item">
+                                                            <h3 class="accordion-heading"><span class="inner">Who will
+                                                                    be my contact person during the project?</span></h3>
+                                                            <div class="accordion-content">
+                                                                <div>Communication is very important, and we will be in
+                                                                    touch over the phone and email 24/7 to answer any
+                                                                    questions or details that may appear during the
+                                                                    duration of the project.</div>
+                                                            </div>
+                                                        </div><!-- /.accordion-item -->
+
+                                                        <div class="accordion-item">
+                                                            <h3 class="accordion-heading"><span class="inner">How long
+                                                                    have you been in business?</span></h3>
+                                                            <div class="accordion-content">
+                                                                <div>We have over 15 years of experience and we have
+                                                                    been in business for over 10 years now.</div>
+                                                            </div>
+                                                        </div><!-- /.accordion-item -->
+
 
                                                     </div><!-- /.themesflat-accordion -->
                                                 </div><!-- /.themesflat-content-box -->
@@ -832,7 +918,6 @@
                                 <!-- END WHYUS  -->
 
 
-
                                 <!-- PROJECT -->
                                 <div class="row-project clearfix">
                                     <div class="container">
@@ -846,13 +931,13 @@
                                                     </div>
                                                     <ul class="themesflat-filter style-1 filter-absolute clearfix">
                                                         <li class="active"><a href="#" data-filter="*">All</a></li>
-                                                        <li><a href="#" data-filter=".green">GREEN HOUSE</a></li>
+                                                        <!-- <li><a href="#" data-filter=".green"></a></li>
                                                         <li><a href="#" data-filter=".architecture">ARCHITECTURE </a>
                                                         </li>
                                                         <li><a href="#" data-filter=".construction">CONSTRUCTION </a>
                                                         </li>
                                                         <li><a href="#" data-filter=".villa">VILLA</a></li>
-                                                        <li><a href="#" data-filter=".building">BUILDING</a></li>
+                                                        <li><a href="#" data-filter=".building">BUILDING</a></li> -->
                                                     </ul>
                                                 </div>
                                                 <div class="themesflat-spacer clearfix" data-desktop="40"
@@ -866,17 +951,17 @@
                                                                 <img src="assets/img/project/project-1-370x245.jpg"
                                                                     alt="Image">
                                                                 <div class="elm-link">
-                                                                    <a href="#" class="icon-1 icon-search"></a>
-                                                                    <a href="#" class="icon-1"></a>
+                                                                    <a href="" data-toggle="modal"
+                                                                        data-target="#modalCenter1" class="icon-1"></a>
                                                                 </div>
-                                                                <div class="overlay-effect bg-color-3"></div>
+                                                                <div class="overlay-effect bg-color-3"
+                                                                    data-toggle="modal" data-target="#modalCenter1">
+                                                                </div>
                                                             </div>
                                                             <div class="text-wrap">
-                                                                <h5 class="heading"><a href="#">LAKE MEADOWS
-                                                                        APARTMENTS</a></h5>
+                                                                <h5 class="heading"><a href="#">Project 1</a></h5>
                                                                 <div class="elm-meta">
-                                                                    <span><a href="#">Green House</a></span>
-                                                                    <span><a href="#">Villa</a></span>
+
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -888,16 +973,17 @@
                                                                 <img src="assets/img/project/project-2-370x245.jpg"
                                                                     alt="Image">
                                                                 <div class="elm-link">
-                                                                    <a href="#" class="icon-1 icon-search"></a>
-                                                                    <a href="#" class="icon-1"></a>
+                                                                    <a href="" data-toggle="modal"
+                                                                        data-target="#modalCenter2" class="icon-1"></a>
                                                                 </div>
-                                                                <div class="overlay-effect bg-color-3"></div>
+                                                                <div class="overlay-effect bg-color-3"
+                                                                    data-toggle="modal" data-target="#modalCenter2">
+                                                                </div>
                                                             </div>
                                                             <div class="text-wrap">
-                                                                <h5 class="heading"><a href="#">CAVAL RIDGE MINE PROJECT
+                                                                <h5 class="heading"><a href="#">Project 2
                                                                     </a></h5>
                                                                 <div class="elm-meta">
-                                                                    <span><a href="#">Architecture</a></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -909,17 +995,16 @@
                                                                 <img src="assets/img/project/project-3-370x245.jpg"
                                                                     alt="Image">
                                                                 <div class="elm-link">
-                                                                    <a href="#" class="icon-1 icon-search"></a>
-                                                                    <a href="#" class="icon-1"></a>
+                                                                    <a href="" data-toggle="modal"
+                                                                        data-target="#modalCenter3" class="icon-1"></a>
                                                                 </div>
-                                                                <div class="overlay-effect bg-color-3"></div>
+                                                                <div class="overlay-effect bg-color-3"
+                                                                    data-toggle="modal" data-target="#modalCenter3">
+                                                                </div>
                                                             </div>
                                                             <div class="text-wrap">
-                                                                <h5 class="heading"><a href="#">GRAM HOTEL MAMZANA,
-                                                                        MEWYORK</a></h5>
+                                                                <h5 class="heading"><a href="#">Project 3</a></h5>
                                                                 <div class="elm-meta">
-                                                                    <span><a href="#">Green House</a></span>
-                                                                    <span><a href="#">Villa</a></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -931,17 +1016,16 @@
                                                                 <img src="assets/img/project/project-4-370x245.jpg"
                                                                     alt="Image">
                                                                 <div class="elm-link">
-                                                                    <a href="#" class="icon-1 icon-search"></a>
-                                                                    <a href="#" class="icon-1"></a>
+                                                                    <a href="" data-toggle="modal"
+                                                                        data-target="#modalCenter4" class="icon-1"></a>
                                                                 </div>
-                                                                <div class="overlay-effect bg-color-3"></div>
+                                                                <div class="overlay-effect bg-color-3"
+                                                                    data-toggle="modal" data-target="#modalCenter4">
+                                                                </div>
                                                             </div>
                                                             <div class="text-wrap">
-                                                                <h5 class="heading"><a href="#">LAKE MEADOWS
-                                                                        APARTMENTS</a></h5>
+                                                                <h5 class="heading"><a href="#">Project 4</a></h5>
                                                                 <div class="elm-meta">
-                                                                    <span><a href="#">Green House</a></span>
-                                                                    <span><a href="#">Villa</a></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -953,16 +1037,17 @@
                                                                 <img src="assets/img/project/project-5-370x245.jpg"
                                                                     alt="Image">
                                                                 <div class="elm-link">
-                                                                    <a href="#" class="icon-1 icon-search"></a>
-                                                                    <a href="#" class="icon-1"></a>
+                                                                    <a href="" data-toggle="modal"
+                                                                        data-target="#modalCenter5" class="icon-1"></a>
                                                                 </div>
-                                                                <div class="overlay-effect bg-color-3"></div>
+                                                                <div class="overlay-effect bg-color-3"
+                                                                    data-toggle="modal" data-target="#modalCenter5">
+                                                                </div>
                                                             </div>
                                                             <div class="text-wrap">
-                                                                <h5 class="heading"><a href="#">CAVAL RIDGE MINE PROJECT
+                                                                <h5 class="heading"><a href="#">Project 5
                                                                     </a></h5>
                                                                 <div class="elm-meta">
-                                                                    <span><a href="#">Architecture</a></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -974,17 +1059,16 @@
                                                                 <img src="assets/img/project/project-6-370x245.jpg"
                                                                     alt="Image">
                                                                 <div class="elm-link">
-                                                                    <a href="#" class="icon-1 icon-search"></a>
-                                                                    <a href="#" class="icon-1"></a>
+                                                                    <a href="" data-toggle="modal"
+                                                                        data-target="#modalCenter6" class="icon-1"></a>
                                                                 </div>
-                                                                <div class="overlay-effect bg-color-3"></div>
+                                                                <div class="overlay-effect bg-color-3"
+                                                                    data-toggle="modal" data-target="#modalCenter6">
+                                                                </div>
                                                             </div>
                                                             <div class="text-wrap">
-                                                                <h5 class="heading"><a href="#">GRAM HOTEL MAMZANA,
-                                                                        MEWYORK</a></h5>
+                                                                <h5 class="heading"><a href="#">Project 6</a></h5>
                                                                 <div class="elm-meta">
-                                                                    <span><a href="#">Green House</a></span>
-                                                                    <span><a href="#">Villa</a></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1028,156 +1112,7 @@
 
 
                                 <!-- TESTIMONIALS -->
-                                <div class="row-testimonials bg-light-snow">
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <div class="themesflat-spacer clearfix" data-desktop="60"
-                                                    data-mobile="60" data-smobile="60"></div>
-                                                <div class="themesflat-headings style-1 font-hind text-center clearfix">
-                                                    <h2 class="heading">TESTIMONIAL</h2>
-                                                    <div class="sep has-icon width-125 clearfix">
-                                                        <div class="sep-icon">
-                                                            <span class="sep-icon-before sep-center sep-solid"></span>
-                                                            <span class="icon-wrap"><i
-                                                                    class="autora-icon-build"></i></span>
-                                                            <span class="sep-icon-after sep-center sep-solid"></span>
-                                                        </div>
-                                                    </div>
-                                                    <p class="sub-heading">With us you will have the peace of mind
-                                                        knowing that your dream home project is in the hands <br> of a
-                                                        licensed fully insured building company.</p>
-                                                </div>
-                                                <div class="themesflat-spacer clearfix" data-desktop="46"
-                                                    data-mobile="35" data-smobile="35"></div>
-                                                <div class="themesflat-carousel-box has-bullets bullet-circle clearfix"
-                                                    data-gap="30" data-column="3" data-column2="2" data-column3="1"
-                                                    data-auto="true">
-                                                    <div class="owl-carousel owl-theme">
-                                                        <div
-                                                            class="themesflat-testimonials style-2 align-center clearfix">
-                                                            <div class="testimonial-item">
-                                                                <div class="inner">
-                                                                    <div class="thumb">
-                                                                        <img src="assets/img/testimonials/customer-1-90x90.html"
-                                                                            alt="Image">
-                                                                    </div>
-                                                                    <blockquote class="text">
-                                                                        <div class="name-pos clearfix">
-                                                                            <h6 class="name">JERRY SKINNER</h6>
-                                                                            <span class="position">CAM Gentle Co.</span>
-                                                                        </div>
-                                                                        <p>Lorem ipsum dolor sit amet, consectetuer
-                                                                            adipiscing elit, sed diam nonummy nibh
-                                                                            euismod tincid unt ut laoreet dolore magna
-                                                                            aliquam erat volutpat. Ut wisi enim ad minim
-                                                                            veniam, quis nostrud exerci tation </p>
-                                                                        <div class="list-star">
-                                                                            <i class="ion-star"></i>
-                                                                            <i class="ion-star"></i>
-                                                                            <i class="ion-star"></i>
-                                                                            <i class="ion-star"></i>
-                                                                            <i class="ion-star"></i>
-                                                                        </div>
-                                                                    </blockquote>
-                                                                </div>
-                                                            </div>
-                                                        </div><!-- /.themesflat-testimonials -->
-                                                        <div
-                                                            class="themesflat-testimonials style-2 align-center clearfix">
-                                                            <div class="testimonial-item">
-                                                                <div class="inner">
-                                                                    <div class="thumb">
-                                                                        <img src="assets/img/testimonials/customer-2-90x90.html"
-                                                                            alt="Image">
-                                                                    </div>
-                                                                    <blockquote class="text">
-                                                                        <div class="name-pos clearfix">
-                                                                            <h6 class="name">ASHLEY SOLOMON</h6>
-                                                                            <span class="position">CAM Gentle Co.</span>
-                                                                        </div>
-                                                                        <p>Lorem ipsum dolor sit amet, consectetuer
-                                                                            adipiscing elit, sed diam nonummy nibh
-                                                                            euismod tincid unt ut laoreet dolore magna
-                                                                            aliquam erat volutpat. Ut wisi enim ad minim
-                                                                            veniam, quis nostrud exerci tation </p>
-                                                                        <div class="list-star">
-                                                                            <i class="ion-star"></i>
-                                                                            <i class="ion-star"></i>
-                                                                            <i class="ion-star"></i>
-                                                                            <i class="ion-star"></i>
-                                                                            <i class="ion-star"></i>
-                                                                        </div>
-                                                                    </blockquote>
-                                                                </div>
-                                                            </div>
-                                                        </div><!-- /.themesflat-testimonials -->
-                                                        <div
-                                                            class="themesflat-testimonials style-2 align-center clearfix">
-                                                            <div class="testimonial-item">
-                                                                <div class="inner">
-                                                                    <div class="thumb">
-                                                                        <img src="assets/img/testimonials/customer-3-90x90.html"
-                                                                            alt="Image">
-                                                                    </div>
-                                                                    <blockquote class="text">
-                                                                        <div class="name-pos clearfix">
-                                                                            <h6 class="name">WILLIAM KRAUSE</h6>
-                                                                            <span class="position">CAM Gentle Co.</span>
-                                                                        </div>
-                                                                        <p>Lorem ipsum dolor sit amet, consectetuer
-                                                                            adipiscing elit, sed diam nonummy nibh
-                                                                            euismod tincid unt ut laoreet dolore magna
-                                                                            aliquam erat volutpat. Ut wisi enim ad minim
-                                                                            veniam, quis nostrud exerci tation </p>
-                                                                        <div class="list-star">
-                                                                            <i class="ion-star"></i>
-                                                                            <i class="ion-star"></i>
-                                                                            <i class="ion-star"></i>
-                                                                            <i class="ion-star"></i>
-                                                                            <i class="ion-star"></i>
-                                                                        </div>
-                                                                    </blockquote>
-                                                                </div>
-                                                            </div>
-                                                        </div><!-- /.themesflat-testimonials -->
-                                                        <div
-                                                            class="themesflat-testimonials style-2 align-center clearfix">
-                                                            <div class="testimonial-item">
-                                                                <div class="inner">
-                                                                    <div class="thumb">
-                                                                        <img src="assets/img/testimonials/customer-4-90x90.html"
-                                                                            alt="Image">
-                                                                    </div>
-                                                                    <blockquote class="text">
-                                                                        <div class="name-pos clearfix">
-                                                                            <h6 class="name">JERRY SKINNER</h6>
-                                                                            <span class="position">CAM Gentle Co.</span>
-                                                                        </div>
-                                                                        <p>Lorem ipsum dolor sit amet, consectetuer
-                                                                            adipiscing elit, sed diam nonummy nibh
-                                                                            euismod tincid unt ut laoreet dolore magna
-                                                                            aliquam erat volutpat. Ut wisi enim ad minim
-                                                                            veniam, quis nostrud exerci tation </p>
-                                                                        <div class="list-star">
-                                                                            <i class="ion-star"></i>
-                                                                            <i class="ion-star"></i>
-                                                                            <i class="ion-star"></i>
-                                                                            <i class="ion-star"></i>
-                                                                            <i class="ion-star"></i>
-                                                                        </div>
-                                                                    </blockquote>
-                                                                </div>
-                                                            </div>
-                                                        </div><!-- /.themesflat-testimonials -->
-                                                    </div>
-                                                </div><!-- /.themesflat-carousel-box -->
-                                                <div class="themesflat-spacer clearfix" data-desktop="81"
-                                                    data-mobile="60" data-smobile="60"></div>
-                                            </div><!-- /.col-md-12 -->
-                                        </div><!-- /.row -->
-                                    </div><!-- /.container -->
-                                </div>
+
                                 <!-- END TESTIMONIALS -->
 
                             </div><!-- /.page-content -->
@@ -1199,29 +1134,28 @@
 
                                     <p class="margin-bottom-15">We have over 15 years of experien able to help you 24
                                         hours a day.</p>
-
                                     <ul>
                                         <li>
                                             <div class="inner">
-                                                <span class="fa fa-map-marker"></span>
-                                                <span class="text">31 evers st, Bridgeport, CT 06610</span></span>
+                                                <span class="fa fa-envelope"></span>
+                                                <span class="text">Jrcontractor87@gmail.com</span>
                                             </div>
                                         </li>
-
                                         <li>
                                             <div class="inner">
                                                 <span class="fa fa-phone"></span>
                                                 <span class="text">Call Us: +1 203 913 3144</span>
                                             </div>
                                         </li>
-
-                                        <li class="margin-top-7">
+                                        <li>
                                             <div class="inner">
-                                                <span class=" font-size-14 fa fa-envelope"></span>
-                                                <span class="text">Jrcontractor87@gmail.com</span>
+                                                <span class="fa fa-map-marker"></span>
+                                                <span class="text">31 Evers St, Bridgeport, CT 06610</span>
                                             </div>
                                         </li>
+
                                     </ul>
+
                                 </div>
                             </div><!-- /.widget_text -->
                             <div class="themesflat-spacer clearfix" data-desktop="0" data-mobile="0" data-smobile="35">
@@ -1321,46 +1255,569 @@
                     </div><!-- /.themesflat-row -->
                 </div><!-- /#footer-widgets -->
             </footer><!-- /#footer -->
+        </div>
 
-            <!-- Bottom -->
-            <div id="bottom" class="clearfix has-spacer">
-                <div id="bottom-bar-inner" class="container">
-                    <div class="bottom-bar-inner-wrap">
-                        <div class="bottom-bar-content">
-                            <div id="copyright">© <span class="text"><a target="_blank"
-                                        href="https://www.linkedin.com/in/lopes-giovani/" class="text-accent">Lopes
-                                    </a></span>
+        <div class="modal fade bd-example-modal-lg" id="modalCenter1" tabindex="-1" role="dialog"
+            aria-labelledby="modalCenter1Title" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role=" document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Project 1</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <spann aria-hidden="true">&times;</spann>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="assets/img/Coleção 3/IMG-20240402-WA0077.jpg"
+                                        alt="Seventh slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">Before</p>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 3/IMG-20240402-WA0078.jpg"
+                                        alt="Eighth slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">After</p>
+                                    </div>
+
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 3/IMG-20240402-WA0079.jpg"
+                                        alt="Ninth slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">After</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 3/IMG-20240402-WA0080.jpg"
+                                        alt="Tenth slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">Before</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 3/IMG-20240402-WA0081.jpg"
+                                        alt="Eleventh slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">After</p>
+                                    </div>
+                                </div>
                             </div>
-                        </div><!-- /.bottom-bar-content -->
 
-                        <div class="bottom-bar-menu">
-                            <ul class="bottom-nav">
-                                <li class="menu-item current-menu-item">
-                                    <a href="index.html">HOME</a>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="page-about-2.html">ABOUT US</a>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="page-services.html">SERVICES</a>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="page-projects.html">PROJECTS</a>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="page-testimonial.html">PAGE</a>
-                                </li>
-                                <li class="menu-item">
-                                    <a href="page-contact.html">CONTACT</a>
-                                </li>
-                            </ul>
-                        </div><!-- /.bottom-bar-menu -->
-                    </div><!-- /.bottom-bar-inner-wrap -->
-                </div><!-- /#bottom-bar-inner -->
-            </div><!-- /#bottom -->
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        </div><!-- /#page -->
+        <div class="modal fade bd-example-modal-lg" id="modalCenter2" tabindex="-1" role="dialog"
+            aria-labelledby="modalCenter2Title" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Project 2</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <spann aria-hidden="true">&times;</spann>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <!-- <div class="carousel-item active">
+                                    <img class="d-block w-100" src="assets/img/Coleção 2/IMG-20240402-WA0071.jpg"
+                                        alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 2/IMG-20240402-WA0072.jpg"
+                                        alt="Second slide">
+                                </div> -->
+
+                                <div class="carousel-item ">
+                                    <img class="d-block w-100" src="assets/img/Coleção 2/IMG-20240402-WA0104.jpg"
+                                        alt="Eighth slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">Before</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="assets/img/Coleção 2/IMG-20240402-WA0105.jpg"
+                                        alt="Ninth slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">After</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 2/IMG-20240402-WA0106.jpg"
+                                        alt="Tenth slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">After</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 2/IMG-20240402-WA0107.jpg"
+                                        alt="Eleventh slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">After</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 2/IMG-20240402-WA0108.jpg"
+                                        alt="Twelfth slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">After</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 2/IMG-20240402-WA0109.jpg"
+                                        alt="Thirteenth slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">After</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls2" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls2" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg" id="modalCenter3" tabindex="-1" role="dialog"
+            aria-labelledby="modalCenter3Title" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Project 3</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <spann aria-hidden="true">&times;</spann>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="carouselExampleControls3" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="assets/img/Coleção 1/IMG-20240402-WA0061.jpg"
+                                        alt="First slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">Before</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 1/IMG-20240402-WA0062.jpg"
+                                        alt="Second slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">Before</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 1/IMG-20240402-WA0063.jpg"
+                                        alt="Third slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">Before</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 1/IMG-20240402-WA0064.jpg"
+                                        alt="Slide 4">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">Before</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 1/IMG-20240402-WA0065.jpg"
+                                        alt="Slide 5">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">After</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 1/IMG-20240402-WA0066.jpg"
+                                        alt="Slide 6">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">After</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 1/IMG-20240402-WA0067.jpg"
+                                        alt="Slide 7">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">Before</p>
+                                    </div>
+                                </div>
+                                <!-- <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 1/IMG-20240402-WA0068.jpg"
+                                        alt="Slide 8">
+
+                                </div> -->
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 1/IMG-20240402-WA0069.jpg"
+                                        alt="Slide 9">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">Before</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 1/IMG-20240402-WA0070.jpg"
+                                        alt="Slide 10">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">Before</p>
+                                    </div>
+                                </div>
+                                <!-- Adicione mais divs conforme necessário -->
+
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls3" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls3" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg" id="modalCenter4" tabindex="-1" role="dialog"
+            aria-labelledby="modalCenter4Title" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Project 4</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <spann aria-hidden="true">&times;</spann>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="carouselExampleControls4" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="assets/img/Coleção 4/IMG-20240402-WA0085.jpg"
+                                        alt="Fourth slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">After</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 4/IMG-20240402-WA0086.jpg"
+                                        alt="Fifth slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">After</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 4/IMG-20240402-WA0087.jpg"
+                                        alt="Sixth slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">After</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 4/IMG-20240402-WA0088.jpg"
+                                        alt="Seventh slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">Before</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 4/IMG-20240402-WA0089.jpg"
+                                        alt="Eighth slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">After</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 4/IMG-20240402-WA0090.jpg"
+                                        alt="Ninth slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">After</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 4/IMG-20240402-WA0093.jpg"
+                                        alt="Twelfth slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">Before</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 4/IMG-20240402-WA0094.jpg"
+                                        alt="Thirteenth slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">After</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 4/IMG-20240402-WA0095.jpg"
+                                        alt="Fourteenth slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">After</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 4/IMG-20240402-WA0096.jpg"
+                                        alt="Fifteenth slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">After</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls4" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls4" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg" id="modalCenter5" tabindex="-1" role="dialog"
+            aria-labelledby="modalCenter5Title" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Project 5</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <spann aria-hidden="true">&times;</spann>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="carouselExampleControls5" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="assets/img/Coleção 5/IMG-20240402-WA0082.jpg"
+                                        alt="First slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">Before</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 5/IMG-20240402-WA0083.jpg"
+                                        alt="Second slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">Before</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 5/IMG-20240402-WA0084.jpg"
+                                        alt="Third slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">Before</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 5/IMG-20240402-WA0098.jpg"
+                                        alt="Second slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">After</p>
+                                    </div>
+
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 5/IMG-20240402-WA0099.jpg"
+                                        alt="Third slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">After</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 5/IMG-20240402-WA0100.jpg"
+                                        alt="Fourth slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">After</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 5/IMG-20240402-WA0101.jpg"
+                                        alt="Fifth slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">After</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 5/IMG-20240402-WA0102.jpg"
+                                        alt="Sixth slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">Before</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 5/IMG-20240402-WA0103.jpg"
+                                        alt="Seventh slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">Before</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 5/IMG-20240402-WA0097.jpg"
+                                        alt="First slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">After</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls5" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls5" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade bd-example-modal-lg" id="modalCenter6" tabindex="-1" role="dialog"
+            aria-labelledby="modalCenter6Title" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Project 6</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <spann aria-hidden="true">&times;</spann>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="carouselExampleControls6" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="assets/img/Coleção 6/IMG-20240402-WA0073.jpg"
+                                        alt="Third slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">Before</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 6/IMG-20240402-WA0074.jpg"
+                                        alt="Fourth slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">Before</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 6/IMG-20240402-WA0075.jpg"
+                                        alt="Fifth slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">Before</p>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/img/Coleção 6/IMG-20240402-WA0076.jpg"
+                                        alt="Fifth slide">
+                                    <div class="carousel-caption d-none d-lg-block ml-3" style="font-size: 3rem; ">
+                                        <p style="font-size: 3rem; margin-right: 200px;">After</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls6" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls6" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <!-- Bottom -->
+        <div id="bottom" class="clearfix has-spacer">
+            <div id="bottom-bar-inner" class="container">
+                <div class="bottom-bar-inner-wrap">
+                    <div class="bottom-bar-content">
+                        <div id="copyright">© <span class="text"><a target="_blank"
+                                    href="https://www.linkedin.com/in/lopes-giovani/" class="text-accent">Lopes
+                                </a></span>
+                        </div>
+                    </div><!-- /.bottom-bar-content -->
+
+                    <div class="bottom-bar-menu">
+                        <ul class="bottom-nav">
+                            <li class="menu-item current-menu-item">
+                                <a href="index.html">HOME</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="page-about-2.html">ABOUT US</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="page-services.html">SERVICES</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="page-projects.html">PROJECTS</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="page-testimonial.html">PAGE</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="page-contact.html">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div><!-- /.bottom-bar-menu -->
+                </div><!-- /.bottom-bar-inner-wrap -->
+            </div><!-- /#bottom-bar-inner -->
+        </div><!-- /#bottom -->
+
+    </div><!-- /#page -->
     </div><!-- /#wrapper -->
+    <!-- Modal -->
 
     <a id="scroll-top"></a>
 
@@ -1368,7 +1825,6 @@
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/tether.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/animsition.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/countto.js"></script>
@@ -1397,6 +1853,7 @@
     <script src="includes/rev-slider/js/extensions/revolution.extension.parallax.min.js"></script>
     <script src="includes/rev-slider/js/extensions/revolution.extension.slideanims.min.js"></script>
     <script src="includes/rev-slider/js/extensions/revolution.extension.video.min.js"></script>
+
 
 </body>
 
